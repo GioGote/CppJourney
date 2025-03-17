@@ -14,6 +14,7 @@ int main(){
     char c;
     cout << "Enter characters to find out their int value:\n";
 
+    // This following will ask the user for an input then spit out a result"
     while (cin >> c){
         cout << "The value of '" << c << "' is " << int(c) << '\n';
     }
